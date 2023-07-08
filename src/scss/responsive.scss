@@ -1,0 +1,75 @@
+@include media-md {
+  header {
+    .menu {
+      display: none;
+    }
+    .mobile-nav {
+      display: block;
+      width: 100%;
+      background-color: $indigo;
+      @include absolute;
+      height: 100vh;
+      z-index: 999;
+      span {
+        display: block;
+      }
+      li {
+        margin: 30px;
+        a {
+          font-size: 50px;
+        }
+      }
+    }
+    .icons {
+      @include absolute;
+      z-index: 10000;
+      top: 60px;
+      width: 100%;
+      left: 35%;
+      background: none;
+    }
+  }
+  .main-div {
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+
+
+    .sideContent {
+      position: relative;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: max-content;
+    }
+
+    .main-x {
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+  .about {
+   display: flex;
+   flex-direction: column;
+    
+    &_services {
+      &_boxs {
+        @include grids(1, 1fr, 40px);
+
+      
+      }
+    }
+    &_price {
+      &_content {
+        @include grids(1, 1fr, 40px);
+
+      }
+    }
+  }
+}
