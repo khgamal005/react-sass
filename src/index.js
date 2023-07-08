@@ -21,10 +21,10 @@ const router = createBrowserRouter([
    
     children: [
       { index: true, element: <Main/> },
-      // { path: "portfolio", element: <Portfolio/> },
-      // { path: "contact", element: <Contact/> },
-      // { path: "resume", element: <Resume/> },
-      // { path: "blog", element: <Blog/> },
+      { path: "react-sass/portfolio", element: <Portfolio/> },
+      { path: "react-sass/contact", element: <Contact/> },
+      { path: "react-sass/resume", element: <Resume/> },
+      { path: "react-sass/blog", element: <Blog/> },
 
 
     ],
