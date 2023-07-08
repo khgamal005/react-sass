@@ -16,15 +16,15 @@ import { Blog } from './components/page/Blog';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/react-sass",
     element: <Home />,
    
     children: [
       { index: true, element: <Main/> },
-      { path: "portfolio", element: <Portfolio/> },
-      { path: "contact", element: <Contact/> },
-      { path: "resume", element: <Resume/> },
-      { path: "blog", element: <Blog/> },
+      // { path: "portfolio", element: <Portfolio/> },
+      // { path: "contact", element: <Contact/> },
+      // { path: "resume", element: <Resume/> },
+      // { path: "blog", element: <Blog/> },
 
 
     ],
