@@ -14,31 +14,31 @@ export const menu = [
   {
     id: 1,
     text: "home",
-    url: "/",
+    url: "/react-sass",
     icon: <AiOutlineHome />,
   },
   {
     id: 2,
     text: "resume",
-    url: "/resume",
+    url: "react-sass/resume",
     icon: <RiUserLine />,
   },
   {
     id: 3,
     text: "portfolio",
-    url: "portfolio",
+    url: "react-sass/portfolio",
     icon: <FaRegLightbulb />,
   },
   {
     id: 4,
     text: "blog",
-    url: "/blog",
+    url: "react-sass/blog",
     icon: <CgCardClubs />,
   },
   {
     id: 5,
     text: "contact",
-    url: "/contact",
+    url: "react-sass/contact",
     icon: <TbMailOpened />,
   },
 ]
