@@ -66,7 +66,7 @@ const SideContent = () => {
             <FiDownloadCloud className='button_bicon' />
           </span>
         </button>
-        <button className='button'>
+        <button className='button big'>
           <RiMoneyDollarCircleLine className='button_bicon' />
           <span>HIRE ME</span>
         </button>

@@ -8,12 +8,12 @@ export const Home = () => {
     <>
 {/* <Container fluid> */}
 <Row className="main-div">
-    <Col sm={12} xs={12} md={5} lg={4}>
+    <Col sm={12} xs={12} md={4} lg={4} >
    <div className="side ">
    <SideContent/>
    </div>
     </Col>
-    <Col sm={12} xs={12} md={7} lg={8}  >
+    <Col sm={12} xs={12} md={8} lg={8}  >
     <div className="main-x">
     <Outlet/>
     </div>
